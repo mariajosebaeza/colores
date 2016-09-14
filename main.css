@@ -1,0 +1,47 @@
+h1{
+	text-align: center;
+	font-size: 200px;
+	font-family: 'Prompt', sans-serif;
+	margin-top: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+	body{
+	background-color: #53CB21; 
+	}
+	h1{
+		font-size: 30px;
+	}
+}
+@media (min-width: 376px) and (max-width: 667px) {
+	body{
+	background-color: #F4F24D; 
+	}
+	h1{
+		font-size: 80px;
+	}
+}
+@media (min-width: 667px) and (max-width: 1024px) {
+	body{
+	background-color: red; 
+	}
+	h1{
+		font-size: 80px;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1600px) {
+	body{
+	background-color: blue; 
+	}
+	h1{
+		font-size: 80px;
+	}
+}
+
+/*
+Breakpoints: 
+320px - 375px; GREEN
+376px - 667px; YELLOW
+667px - 1024px; RED
+1024px - 1600px; BLUE
+*/
